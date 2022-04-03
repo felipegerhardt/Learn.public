@@ -7,9 +7,7 @@
 Samples:
 
 <div flex-direction="row">
-<div borderwidth=1>
 <img src="https://user-images.githubusercontent.com/60149913/161406843-d139b147-317a-4716-a3ab-62d64b7122f1.jpeg" width="300" >
-</div>
 <img src="https://user-images.githubusercontent.com/60149913/161406839-bad654ad-a24b-4afd-b4aa-65a5f1716585.jpeg" width="300" >
 </div>
 
