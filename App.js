@@ -1,31 +1,26 @@
 import React from 'react';
 
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
 
 
-import AuthProvider from './context/auth';
-import Routes from './screens/rotas';
+import AuthProvider from './src/context/auth';
+import Routes from './src/routes';
 
 import { LogBox } from 'react-native';
 
-
-// TESTE FONTE
 import { useFonts } from 'expo-font';
 
 LogBox.ignoreLogs(['Setting a timer for a long period of time'])
 
 
-const Stack = createStackNavigator();
-
 export default function App() {
 
   const [loaded] = useFonts({
-    FredokaRegular: require('./assets/fonts/Fredoka-Regular.ttf'),
-    FredokaMedium: require('./assets/fonts/Fredoka-Medium.ttf'),
-    FredokaLight: require('./assets/fonts/Fredoka-Light.ttf'),
-    FredokaSemiBold: require('./assets/fonts/Fredoka-SemiBold.ttf'),
-    FredokaBold: require('./assets/fonts/Fredoka-Bold.ttf'),
+    FredokaRegular: require('./src/assets/fonts/Fredoka-Regular.ttf'),
+    FredokaMedium: require('./src/assets/fonts/Fredoka-Medium.ttf'),
+    FredokaLight: require('./src/assets/fonts/Fredoka-Light.ttf'),
+    FredokaSemiBold: require('./src/assets/fonts/Fredoka-SemiBold.ttf'),
+    FredokaBold: require('./src/assets/fonts/Fredoka-Bold.ttf'),
 
   })
 

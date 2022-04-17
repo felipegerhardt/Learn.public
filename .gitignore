@@ -1,8 +1,9 @@
-components/firebaseConnection.js
-package-lock.json
-package.json
 node_modules/
 .expo/
+src/components/firebaseConnection.js
+package-lock.json
+package.json
+README.md
 npm-debug.*
 *.jks
 *.p8
